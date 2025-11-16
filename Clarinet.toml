@@ -1,12 +1,12 @@
 [project]
-name = "temp-healthcare"
+name = "healthcare-revenue-integrity-consulting"
 description = ""
 authors = []
 telemetry = true
 cache_dir = "./.cache"
 
-# [contracts.counter]
-# path = "contracts/counter.clar"
+[contracts.revenue-integrity]
+path = "contracts/revenue-integrity.clar"
 
 [repl.analysis]
 passes = ["check_checker"]
